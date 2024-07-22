@@ -1,0 +1,74 @@
+/* Apply styles to the entire form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Apply styles to fieldset */
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Apply styles to legend */
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Apply styles to labels */
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#radio-label,
+#checkbox-label, 
+{
+    padding: 5px;
+}
+
+/* Apply styles to text inputs */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin-bottom: 10px;
+}
+
+/* Apply styles to radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Apply styles to submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
